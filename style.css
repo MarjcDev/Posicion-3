@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(121,92,9,1) 31%, rgba(58,155,137,1) 60%, rgba(0,212,255,1) 100%);
+}
+
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    border: 3px solid white;
+    position: relative;
+    margin: 25vh auto;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    margin: 10%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.cuadro{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+} 
