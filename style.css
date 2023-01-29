@@ -14,12 +14,29 @@ nav{
 
 .container{
     width: 50vw;
-    height: 50vh;
+    height: 100vh;
     border: 3px solid white;
     position: relative;
     margin: 25vh auto;
 }
-
+h1[class*='sticky-header']{
+    height: 50px;
+    background: purple;
+    color: wheat;
+     
+}
+.sticky-header-1{
+    position: sticky;
+    top: 0;
+}
+.sticky-header-2{
+    position: sticky;
+    top: 50px;
+}
+.sticky-header-3{
+    position: sticky;
+    top: 100px;
+}
 .circulo{
     width: 100px;
     height: 100px;
