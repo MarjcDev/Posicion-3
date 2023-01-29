@@ -1,7 +1,16 @@
 body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(121,92,9,1) 31%, rgba(58,155,137,1) 60%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    box-sizing: border-box;
+    height: 1000vh;
 }
 
+nav{
+    background: linear-gradient(90deg, rgba(122,55,222,1) 4%, rgba(222,55,218,1) 21%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
 
 .container{
     width: 50vw;
